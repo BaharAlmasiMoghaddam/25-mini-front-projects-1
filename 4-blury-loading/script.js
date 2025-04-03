@@ -6,8 +6,8 @@ const bluring = () => {
   load++;
   if (load > 99) clearInterval(int);
   loadText.innerText = `${load}%`;
-  loadText.computedStyleMap.opacity = scale(load, 0, 100, 1, 0);
-  bg.computedStyleMap.filter = `blur(${scale(load, 0, 100, 30, 0)}px)`;
+  loadText.style.opacity = scale(load, 0, 100, 1, 0);
+  bg.style.filter = `blur(${scale(load, 0, 100, 30, 0)}px)`;
 };
 
 const scale = (num, in_min, in_max, out_min, out_max) => {
