@@ -1,4 +1,4 @@
-const panels = document.querySelector(".panel");
+const panels = document.querySelectorAll(".panel");
 
 function removeActiveClasses() {
   panels.forEach((panel) => {

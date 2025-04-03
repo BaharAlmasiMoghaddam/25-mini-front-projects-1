@@ -71,7 +71,7 @@ h2 {
   transition: opacity 0.2s ease-in;
 }
 
-.panel.active.setting-content {
+.panel.active .setting-content {
   opacity: 1;
   transition: opacity 0.2s ease-in 0.3s;
 }
