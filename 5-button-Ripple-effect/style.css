@@ -10,7 +10,7 @@
 }
 
 body {
-  font-family: "Montesrrat", sans-serif;
+  font-family: "Montserrat", sans-serif;
   background-color: var(--primary-color);
   display: flex;
   flex-direction: column;
@@ -33,7 +33,9 @@ button {
   border: none;
   border-radius: 100px;
   font-size: 14px;
+  text-transform: uppercase;
   letter-spacing: 1.5px;
+  padding: 20px 35px;
   overflow: hidden;
   margin: 10px 0px;
   transition: 0.2s ease;
@@ -68,12 +70,12 @@ button.empty .circle {
   border: 3px solid #fff;
 }
 
-button.rainbow.circle {
+button.rainbow .circle {
   background: radial-gradient(
     circle,
-    rgb(255, 85, 1) 0%,
+    rgba(255, 85, 85, 1) 0%,
     rgba(255, 175, 100, 1) 16%,
-    rgba(255, 175, 100, 1) 32%,
+    rgba(255, 239, 126, 1) 32%,
     rgba(152, 255, 134, 1) 50%,
     rgba(123, 255, 255, 1) 66%,
     rgba(108, 100, 255, 1) 82%,

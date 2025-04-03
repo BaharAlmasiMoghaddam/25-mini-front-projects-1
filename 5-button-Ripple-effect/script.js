@@ -1,4 +1,4 @@
-const buttons = document.querySelector(".ripple");
+const buttons = document.querySelectorAll(".ripple");
 
 buttons.forEach((button) => {
   button.addEventListener("click", function (e) {
@@ -10,7 +10,7 @@ buttons.forEach((button) => {
     circle.style.top = yInside + "px";
     circle.style.left = xInside + "px";
 
-    this.appendchild(circle);
+    this.appendChild(circle);
 
     setTimeout(() => circle.remove(), 500);
   });
