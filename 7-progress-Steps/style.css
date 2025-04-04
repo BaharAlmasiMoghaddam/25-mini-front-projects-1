@@ -22,7 +22,7 @@ body {
 }
 
 .progress-container {
-  display: felx;
+  display: flex;
   justify-content: space-between;
   position: relative;
   margin-bottom: 60px;
@@ -74,7 +74,7 @@ body {
   scale: 1.1;
 }
 
-.circle.icon {
+.circle .icon {
   position: absolute;
   font-size: 25px;
   bottom: 25px;
